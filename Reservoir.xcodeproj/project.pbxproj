@@ -247,8 +247,8 @@
 				616ACB141ACAD8FF00CCC80E /* Foundation.framework */,
 				616ACB121ACAD8FB00CCC80E /* UIKit.framework */,
 				614A3A301ACA3CE600C0A395 /* libxml2.2.dylib */,
-				614A39F21ACA3A4800C0A395 /* WaterMonitor */,
-				614A3A0C1ACA3A4800C0A395 /* WaterMonitorTests */,
+				614A39F21ACA3A4800C0A395 /* Reservoir */,
+				614A3A0C1ACA3A4800C0A395 /* ReservoirTests */,
 				616ACB5D1ACBA19600CCC80E /* watertoday */,
 				616ACB5A1ACBA19600CCC80E /* Frameworks */,
 				614A39F11ACA3A4800C0A395 /* Products */,
@@ -264,7 +264,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		614A39F21ACA3A4800C0A395 /* WaterMonitor */ = {
+		614A39F21ACA3A4800C0A395 /* Reservoir */ = {
 			isa = PBXGroup;
 			children = (
 				616ACB4D1ACB86CC00CCC80E /* Resource */,
@@ -294,7 +294,7 @@
 				616ACB531ACB880600CCC80E /* Global.m */,
 				61F24C5A1ACC5D4600BAC9D1 /* ViewHint.xib */,
 			);
-			path = WaterMonitor;
+			path = Reservoir;
 			sourceTree = "<group>";
 		};
 		614A39F31ACA3A4800C0A395 /* Supporting Files */ = {
@@ -306,13 +306,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		614A3A0C1ACA3A4800C0A395 /* WaterMonitorTests */ = {
+		614A3A0C1ACA3A4800C0A395 /* ReservoirTests */ = {
 			isa = PBXGroup;
 			children = (
 				614A3A0F1ACA3A4800C0A395 /* WaterMonitorTests.m */,
 				614A3A0D1ACA3A4800C0A395 /* Supporting Files */,
 			);
-			path = WaterMonitorTests;
+			path = ReservoirTests;
 			sourceTree = "<group>";
 		};
 		614A3A0D1ACA3A4800C0A395 /* Supporting Files */ = {
@@ -664,7 +664,7 @@
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SDKROOT)/usr/include/libxml2",
 				);
-				INFOPLIST_FILE = WaterMonitor/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Reservoir/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -698,7 +698,7 @@
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SDKROOT)/usr/include/libxml2",
 				);
-				INFOPLIST_FILE = WaterMonitor/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Reservoir/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (

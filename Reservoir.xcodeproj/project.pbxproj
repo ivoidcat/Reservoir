@@ -439,8 +439,8 @@
 				TargetAttributes = {
 					614A39EF1ACA3A4800C0A395 = {
 						CreatedOnToolsVersion = 6.2;
-						DevelopmentTeam = QZMZCHN38N;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = BCU2BHB98M;
+						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 1;
@@ -656,9 +656,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Yu MingHong (AT5UMKWC7Y)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = QZMZCHN38N;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: JIACHAN LUO (D3J667427T)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = BCU2BHB98M;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
@@ -679,7 +679,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.xin.reservoir;
 				PRODUCT_NAME = "台灣水庫";
 				PROVISIONING_PROFILE = "bcb3b823-8f91-494f-96cf-abf8c0e139af";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = "Dev - Wildcard";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -690,8 +690,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Yu MingHong (6T25FRDJW3)";
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: JIACHAN LUO (QZMZCHN38N)";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = QZMZCHN38N;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -712,7 +712,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.xin.reservoir;
 				PRODUCT_NAME = "台灣水庫";
 				PROVISIONING_PROFILE = "46c47680-2f14-4c35-a9ad-0372fadce363";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = "Distribution - reservoir";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;

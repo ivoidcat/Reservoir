@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="57l-8f-ndG">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="AoO-Xy-wpv">
+            <objects>
+                <navigationController id="57l-8f-ndG" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="XHW-m3-isI">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="c5g-kU-T0t" kind="relationship" relationship="rootViewController" id="atK-wb-5h9"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aQK-Ud-9fH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1300" y="-137"/>
+        </scene>
+        <!--台灣主要水庫水位-->
+        <scene sceneID="ms1-eZ-xuM">
+            <objects>
+                <viewController id="c5g-kU-T0t" customClass="MainViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9sN-VK-RQu">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nk9-gv-3Qd">
+                                <rect key="frame" x="0.0" y="88" width="414" height="44"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X5C-1U-k7W">
+                                        <rect key="frame" x="215" y="7" width="98" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="資料表">
+                                            <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="btnSetting:" destination="c5g-kU-T0t" eventType="touchUpInside" id="ZQ8-Cs-RU3"/>
+                                        </connections>
+                                    </button>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="F6s-nJ-jFk">
+                                        <rect key="frame" x="115" y="37" width="98" height="2"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </view>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r6c-gv-Jik">
+                                        <rect key="frame" x="115" y="7" width="98" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" title="水位圖">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="btnWater:" destination="c5g-kU-T0t" eventType="touchUpInside" id="By9-w4-q3M"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.68627450980000004" green="0.87058823529999996" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="nU9-My-chP"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aI1-p7-cQI">
+                                <rect key="frame" x="0.0" y="132" width="414" height="764"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Nk9-gv-3Qd" firstAttribute="top" secondItem="lor-cH-t6P" secondAttribute="top" id="Cfe-qs-XyD"/>
+                            <constraint firstItem="lor-cH-t6P" firstAttribute="trailing" secondItem="Nk9-gv-3Qd" secondAttribute="trailing" id="CqI-7X-onf"/>
+                            <constraint firstItem="lor-cH-t6P" firstAttribute="trailing" secondItem="aI1-p7-cQI" secondAttribute="trailing" id="W6a-o9-qOB"/>
+                            <constraint firstItem="aI1-p7-cQI" firstAttribute="top" secondItem="Nk9-gv-3Qd" secondAttribute="bottom" id="j9k-Ut-Z59"/>
+                            <constraint firstItem="Nk9-gv-3Qd" firstAttribute="leading" secondItem="lor-cH-t6P" secondAttribute="leading" id="rIU-rw-Beo"/>
+                            <constraint firstItem="aI1-p7-cQI" firstAttribute="leading" secondItem="lor-cH-t6P" secondAttribute="leading" id="u8c-oX-5Bj"/>
+                            <constraint firstItem="aI1-p7-cQI" firstAttribute="bottom" secondItem="lor-cH-t6P" secondAttribute="bottom" constant="34" id="yIS-61-q0K"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="lor-cH-t6P"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="台灣主要水庫水位" id="pbm-z9-y5m">
+                        <barButtonItem key="rightBarButtonItem" title="描述" style="done" id="665-xJ-8Hu"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="ContainerView" destination="aI1-p7-cQI" id="tCI-Kg-lae"/>
+                        <outlet property="btnSetting" destination="X5C-1U-k7W" id="Co9-NI-lv2"/>
+                        <outlet property="btnWater" destination="r6c-gv-Jik" id="iV3-qO-1EL"/>
+                        <outlet property="selectedBar" destination="F6s-nJ-jFk" id="EbD-Sr-AtY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3b7-Bd-aRy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-391.304347826087" y="-137.27678571428569"/>
+        </scene>
+    </scenes>
+</document>

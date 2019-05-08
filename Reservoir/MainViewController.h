@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "ReservoirViewController.h"
-#import "SettingViewController.h"
+#import "FavoriteViewController.h"
 
 #import "VpadnBanner.h"
 #import "VpadnInterstitial.h"
@@ -25,7 +25,7 @@
     int ErrorCount;
     
     ReservoirViewController *view1;
-    SettingViewController *view2;
+    FavoriteViewController *view2;
 }
 
 

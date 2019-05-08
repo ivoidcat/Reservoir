@@ -1,26 +1,26 @@
 //
-//  SettingViewController.m
+//  FavoriteViewController.m
 //  WaterMonitor
 //
 //  Created by AKI on 2015/3/31.
 //  Copyright (c) 2015年 AKI. All rights reserved.
 //
 
-#import "SettingViewController.h"
+#import "FavoriteViewController.h"
 #import "mBtn.h"
 #import "Global.h"
 
-@interface SettingViewController ()
+@interface FavoriteViewController ()
 
 @end
 
-@implementation SettingViewController
+@implementation FavoriteViewController
 @synthesize mArray;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [mScroll setContentSize:CGSizeMake(960, 200)];
+    [myScrollView setContentSize:CGSizeMake(960, 200)];
     
 }
 
@@ -120,9 +120,9 @@
     UIButton *btnClose = (UIButton *)[viewHint viewWithTag:103];
     [btnClose addTarget:self action:@selector(btnHideHint:) forControlEvents:UIControlEventTouchUpInside];
     
-    mScroll = (UIScrollView *)[viewHint viewWithTag:101];
-    mScroll.delegate= self;
-    [mScroll setContentSize:CGSizeMake(960, 200)];
+    myScrollView = (UIScrollView *)[viewHint viewWithTag:101];
+    myScrollView.delegate= self;
+    [myScrollView setContentSize:CGSizeMake(960, 200)];
     
     mPage = (UIPageControl *)[viewHint viewWithTag:102];
     
@@ -135,8 +135,8 @@
 
 - (void)scrollViewDidScroll:(UIScrollView *)sender {
     if(sender.tag==101){
-        CGFloat width = mScroll.frame.size.width;
-        NSInteger currentPage = ((mScroll.contentOffset.x - width / 2) / width) + 1;
+        CGFloat width = myScrollView.frame.size.width;
+        NSInteger currentPage = ((myScrollView.contentOffset.x - width / 2) / width) + 1;
         [mPage setCurrentPage:currentPage];
     }
 }

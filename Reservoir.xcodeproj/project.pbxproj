@@ -19,11 +19,11 @@
 		614A3A311ACA3CE600C0A395 /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 614A3A301ACA3CE600C0A395 /* libxml2.2.dylib */; };
 		614A3A351ACA3E1600C0A395 /* ReservoirViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 614A3A331ACA3E1600C0A395 /* ReservoirViewController.m */; };
 		614A3A361ACA3E1600C0A395 /* ReservoirViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 614A3A341ACA3E1600C0A395 /* ReservoirViewController.xib */; };
-		614A3A3A1ACA3E2800C0A395 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 614A3A381ACA3E2800C0A395 /* SettingViewController.m */; };
-		614A3A3B1ACA3E2800C0A395 /* SettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 614A3A391ACA3E2800C0A395 /* SettingViewController.xib */; };
+		614A3A3A1ACA3E2800C0A395 /* FavoriteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 614A3A381ACA3E2800C0A395 /* FavoriteViewController.m */; };
+		614A3A3B1ACA3E2800C0A395 /* FavoriteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 614A3A391ACA3E2800C0A395 /* FavoriteViewController.xib */; };
 		616ACB0C1ACAC8F600CCC80E /* MyCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 616ACB0B1ACAC8F600CCC80E /* MyCustomCell.xib */; };
 		616ACB0F1ACACA6300CCC80E /* mBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 616ACB0E1ACACA6300CCC80E /* mBtn.m */; };
-		616ACB111ACAD88000CCC80E /* 64bit_429_libAdOn_ccfe9e5.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 616ACB101ACAD88000CCC80E /* 64bit_429_libAdOn_ccfe9e5.a */; };
+		616ACB111ACAD88000CCC80E /* 64bit_429_libAdOn_ccfe9e5.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 616ACB101ACAD88000CCC80E /* 64bit_429_libAdOn_ccfe9e5.a */; settings = {ATTRIBUTES = (Weak, ); }; };
 		616ACB131ACAD8FB00CCC80E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616ACB121ACAD8FB00CCC80E /* UIKit.framework */; };
 		616ACB151ACAD8FF00CCC80E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616ACB141ACAD8FF00CCC80E /* Foundation.framework */; };
 		616ACB171ACAD90700CCC80E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616ACB161ACAD90700CCC80E /* CoreLocation.framework */; };
@@ -64,6 +64,24 @@
 		DC21600A22817B14007F8C9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC21600922817B14007F8C9A /* Main.storyboard */; };
 		DC21600D22818B7D007F8C9A /* question.png in Resources */ = {isa = PBXBuildFile; fileRef = DC21600C22818B7D007F8C9A /* question.png */; };
 		DC21600F22818B85007F8C9A /* water.png in Resources */ = {isa = PBXBuildFile; fileRef = DC21600E22818B85007F8C9A /* water.png */; };
+		DC21605822828702007F8C9A /* ClimbAppDelegatev.m in Sources */ = {isa = PBXBuildFile; fileRef = DC21603422828702007F8C9A /* ClimbAppDelegatev.m */; };
+		DC21605922828702007F8C9A /* DanceFavoriteViewControllero.m in Sources */ = {isa = PBXBuildFile; fileRef = DC21603622828702007F8C9A /* DanceFavoriteViewControllero.m */; };
+		DC21605A22828702007F8C9A /* JumpTFHppleElementd.m in Sources */ = {isa = PBXBuildFile; fileRef = DC21603822828702007F8C9A /* JumpTFHppleElementd.m */; };
+		DC21605B22828702007F8C9A /* ListenMainViewControllert.m in Sources */ = {isa = PBXBuildFile; fileRef = DC21603A22828702007F8C9A /* ListenMainViewControllert.m */; };
+		DC21605C22828702007F8C9A /* ListenReservoirViewControllerY.m in Sources */ = {isa = PBXBuildFile; fileRef = DC21603C22828702007F8C9A /* ListenReservoirViewControllerY.m */; };
+		DC21605D22828702007F8C9A /* PatternVWWWaterViews.m in Sources */ = {isa = PBXBuildFile; fileRef = DC21603F22828702007F8C9A /* PatternVWWWaterViews.m */; };
+		DC21605E22828702007F8C9A /* RaiseGlobalS.m in Sources */ = {isa = PBXBuildFile; fileRef = DC21604122828702007F8C9A /* RaiseGlobalS.m */; };
+		DC21605F22828702007F8C9A /* SingUITabBarc.m in Sources */ = {isa = PBXBuildFile; fileRef = DC21604322828702007F8C9A /* SingUITabBarc.m */; };
+		DC21606022828702007F8C9A /* WalkTFHpplek.m in Sources */ = {isa = PBXBuildFile; fileRef = DC21604522828702007F8C9A /* WalkTFHpplek.m */; };
+		DC21606122828702007F8C9A /* UIAlertView+Jump.m in Sources */ = {isa = PBXBuildFile; fileRef = DC21604722828702007F8C9A /* UIAlertView+Jump.m */; };
+		DC21606222828702007F8C9A /* UIImageView+Listen.m in Sources */ = {isa = PBXBuildFile; fileRef = DC21604922828702007F8C9A /* UIImageView+Listen.m */; };
+		DC21606322828702007F8C9A /* UIImageView+Pattern.m in Sources */ = {isa = PBXBuildFile; fileRef = DC21604B22828702007F8C9A /* UIImageView+Pattern.m */; };
+		DC21606422828702007F8C9A /* UIPickerView+Listen.m in Sources */ = {isa = PBXBuildFile; fileRef = DC21604D22828702007F8C9A /* UIPickerView+Listen.m */; };
+		DC21606522828702007F8C9A /* UITabBar+Climb.m in Sources */ = {isa = PBXBuildFile; fileRef = DC21604F22828702007F8C9A /* UITabBar+Climb.m */; };
+		DC21606622828702007F8C9A /* UIViewController+ClimbSing.m in Sources */ = {isa = PBXBuildFile; fileRef = DC21605122828702007F8C9A /* UIViewController+ClimbSing.m */; };
+		DC21606722828702007F8C9A /* UIViewController+Dance.m in Sources */ = {isa = PBXBuildFile; fileRef = DC21605322828702007F8C9A /* UIViewController+Dance.m */; };
+		DC21606822828702007F8C9A /* UIViewController+Raise.m in Sources */ = {isa = PBXBuildFile; fileRef = DC21605522828702007F8C9A /* UIViewController+Raise.m */; };
+		DC21606922828702007F8C9A /* UIViewController+Walk.m in Sources */ = {isa = PBXBuildFile; fileRef = DC21605722828702007F8C9A /* UIViewController+Walk.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,7 +108,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		614A39F01ACA3A4800C0A395 /* 台灣水庫.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "台灣水庫.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		614A39F01ACA3A4800C0A395 /* 水庫水位系統.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "水庫水位系統.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		614A39F41ACA3A4800C0A395 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		614A39F51ACA3A4800C0A395 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		614A39F71ACA3A4800C0A395 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -113,9 +131,9 @@
 		614A3A321ACA3E1600C0A395 /* ReservoirViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReservoirViewController.h; sourceTree = "<group>"; };
 		614A3A331ACA3E1600C0A395 /* ReservoirViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReservoirViewController.m; sourceTree = "<group>"; };
 		614A3A341ACA3E1600C0A395 /* ReservoirViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReservoirViewController.xib; sourceTree = "<group>"; };
-		614A3A371ACA3E2800C0A395 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
-		614A3A381ACA3E2800C0A395 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
-		614A3A391ACA3E2800C0A395 /* SettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingViewController.xib; sourceTree = "<group>"; };
+		614A3A371ACA3E2800C0A395 /* FavoriteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoriteViewController.h; sourceTree = "<group>"; };
+		614A3A381ACA3E2800C0A395 /* FavoriteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoriteViewController.m; sourceTree = "<group>"; };
+		614A3A391ACA3E2800C0A395 /* FavoriteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FavoriteViewController.xib; sourceTree = "<group>"; };
 		616ACB0B1ACAC8F600CCC80E /* MyCustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCustomCell.xib; sourceTree = "<group>"; };
 		616ACB0D1ACACA6300CCC80E /* mBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mBtn.h; sourceTree = "<group>"; };
 		616ACB0E1ACACA6300CCC80E /* mBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mBtn.m; sourceTree = "<group>"; };
@@ -169,6 +187,44 @@
 		DC21600922817B14007F8C9A /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		DC21600C22818B7D007F8C9A /* question.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = question.png; sourceTree = "<group>"; };
 		DC21600E22818B85007F8C9A /* water.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = water.png; sourceTree = "<group>"; };
+		DC21603122828702007F8C9A /* ClimbCallHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClimbCallHeader.h; sourceTree = "<group>"; };
+		DC21603322828702007F8C9A /* ClimbAppDelegatev.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClimbAppDelegatev.h; sourceTree = "<group>"; };
+		DC21603422828702007F8C9A /* ClimbAppDelegatev.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClimbAppDelegatev.m; sourceTree = "<group>"; };
+		DC21603522828702007F8C9A /* DanceFavoriteViewControllero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DanceFavoriteViewControllero.h; sourceTree = "<group>"; };
+		DC21603622828702007F8C9A /* DanceFavoriteViewControllero.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DanceFavoriteViewControllero.m; sourceTree = "<group>"; };
+		DC21603722828702007F8C9A /* JumpTFHppleElementd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JumpTFHppleElementd.h; sourceTree = "<group>"; };
+		DC21603822828702007F8C9A /* JumpTFHppleElementd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JumpTFHppleElementd.m; sourceTree = "<group>"; };
+		DC21603922828702007F8C9A /* ListenMainViewControllert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListenMainViewControllert.h; sourceTree = "<group>"; };
+		DC21603A22828702007F8C9A /* ListenMainViewControllert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListenMainViewControllert.m; sourceTree = "<group>"; };
+		DC21603B22828702007F8C9A /* ListenReservoirViewControllerY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListenReservoirViewControllerY.h; sourceTree = "<group>"; };
+		DC21603C22828702007F8C9A /* ListenReservoirViewControllerY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListenReservoirViewControllerY.m; sourceTree = "<group>"; };
+		DC21603D22828702007F8C9A /* NewClassCallHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewClassCallHeader.h; sourceTree = "<group>"; };
+		DC21603E22828702007F8C9A /* PatternVWWWaterViews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatternVWWWaterViews.h; sourceTree = "<group>"; };
+		DC21603F22828702007F8C9A /* PatternVWWWaterViews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatternVWWWaterViews.m; sourceTree = "<group>"; };
+		DC21604022828702007F8C9A /* RaiseGlobalS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RaiseGlobalS.h; sourceTree = "<group>"; };
+		DC21604122828702007F8C9A /* RaiseGlobalS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RaiseGlobalS.m; sourceTree = "<group>"; };
+		DC21604222828702007F8C9A /* SingUITabBarc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingUITabBarc.h; sourceTree = "<group>"; };
+		DC21604322828702007F8C9A /* SingUITabBarc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingUITabBarc.m; sourceTree = "<group>"; };
+		DC21604422828702007F8C9A /* WalkTFHpplek.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WalkTFHpplek.h; sourceTree = "<group>"; };
+		DC21604522828702007F8C9A /* WalkTFHpplek.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WalkTFHpplek.m; sourceTree = "<group>"; };
+		DC21604622828702007F8C9A /* UIAlertView+Jump.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Jump.h"; sourceTree = "<group>"; };
+		DC21604722828702007F8C9A /* UIAlertView+Jump.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Jump.m"; sourceTree = "<group>"; };
+		DC21604822828702007F8C9A /* UIImageView+Listen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Listen.h"; sourceTree = "<group>"; };
+		DC21604922828702007F8C9A /* UIImageView+Listen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Listen.m"; sourceTree = "<group>"; };
+		DC21604A22828702007F8C9A /* UIImageView+Pattern.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Pattern.h"; sourceTree = "<group>"; };
+		DC21604B22828702007F8C9A /* UIImageView+Pattern.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Pattern.m"; sourceTree = "<group>"; };
+		DC21604C22828702007F8C9A /* UIPickerView+Listen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIPickerView+Listen.h"; sourceTree = "<group>"; };
+		DC21604D22828702007F8C9A /* UIPickerView+Listen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIPickerView+Listen.m"; sourceTree = "<group>"; };
+		DC21604E22828702007F8C9A /* UITabBar+Climb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBar+Climb.h"; sourceTree = "<group>"; };
+		DC21604F22828702007F8C9A /* UITabBar+Climb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+Climb.m"; sourceTree = "<group>"; };
+		DC21605022828702007F8C9A /* UIViewController+ClimbSing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ClimbSing.h"; sourceTree = "<group>"; };
+		DC21605122828702007F8C9A /* UIViewController+ClimbSing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ClimbSing.m"; sourceTree = "<group>"; };
+		DC21605222828702007F8C9A /* UIViewController+Dance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Dance.h"; sourceTree = "<group>"; };
+		DC21605322828702007F8C9A /* UIViewController+Dance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Dance.m"; sourceTree = "<group>"; };
+		DC21605422828702007F8C9A /* UIViewController+Raise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Raise.h"; sourceTree = "<group>"; };
+		DC21605522828702007F8C9A /* UIViewController+Raise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Raise.m"; sourceTree = "<group>"; };
+		DC21605622828702007F8C9A /* UIViewController+Walk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Walk.h"; sourceTree = "<group>"; };
+		DC21605722828702007F8C9A /* UIViewController+Walk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Walk.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -219,6 +275,7 @@
 		614A39E71ACA3A4800C0A395 = {
 			isa = PBXGroup;
 			children = (
+				DC21603022828702007F8C9A /* DragMeToTheProject */,
 				DC216007228172D5007F8C9A /* Launch Screen.storyboard */,
 				616ACB471ACADC1800CCC80E /* EventKit.framework */,
 				616ACB451ACADB8A00CCC80E /* MessageUI.framework */,
@@ -258,7 +315,7 @@
 		614A39F11ACA3A4800C0A395 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				614A39F01ACA3A4800C0A395 /* 台灣水庫.app */,
+				614A39F01ACA3A4800C0A395 /* 水庫水位系統.app */,
 				614A3A091ACA3A4800C0A395 /* ReservoirTests.xctest */,
 			);
 			name = Products;
@@ -283,9 +340,9 @@
 				614A3A321ACA3E1600C0A395 /* ReservoirViewController.h */,
 				614A3A331ACA3E1600C0A395 /* ReservoirViewController.m */,
 				614A3A341ACA3E1600C0A395 /* ReservoirViewController.xib */,
-				614A3A371ACA3E2800C0A395 /* SettingViewController.h */,
-				614A3A381ACA3E2800C0A395 /* SettingViewController.m */,
-				614A3A391ACA3E2800C0A395 /* SettingViewController.xib */,
+				614A3A371ACA3E2800C0A395 /* FavoriteViewController.h */,
+				614A3A381ACA3E2800C0A395 /* FavoriteViewController.m */,
+				614A3A391ACA3E2800C0A395 /* FavoriteViewController.xib */,
 				616ACB0B1ACAC8F600CCC80E /* MyCustomCell.xib */,
 				616ACB0D1ACACA6300CCC80E /* mBtn.h */,
 				616ACB0E1ACACA6300CCC80E /* mBtn.m */,
@@ -389,6 +446,60 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		DC21603022828702007F8C9A /* DragMeToTheProject */ = {
+			isa = PBXGroup;
+			children = (
+				DC21603122828702007F8C9A /* ClimbCallHeader.h */,
+				DC21603222828702007F8C9A /* NewClass */,
+				DC21604622828702007F8C9A /* UIAlertView+Jump.h */,
+				DC21604722828702007F8C9A /* UIAlertView+Jump.m */,
+				DC21604822828702007F8C9A /* UIImageView+Listen.h */,
+				DC21604922828702007F8C9A /* UIImageView+Listen.m */,
+				DC21604A22828702007F8C9A /* UIImageView+Pattern.h */,
+				DC21604B22828702007F8C9A /* UIImageView+Pattern.m */,
+				DC21604C22828702007F8C9A /* UIPickerView+Listen.h */,
+				DC21604D22828702007F8C9A /* UIPickerView+Listen.m */,
+				DC21604E22828702007F8C9A /* UITabBar+Climb.h */,
+				DC21604F22828702007F8C9A /* UITabBar+Climb.m */,
+				DC21605022828702007F8C9A /* UIViewController+ClimbSing.h */,
+				DC21605122828702007F8C9A /* UIViewController+ClimbSing.m */,
+				DC21605222828702007F8C9A /* UIViewController+Dance.h */,
+				DC21605322828702007F8C9A /* UIViewController+Dance.m */,
+				DC21605422828702007F8C9A /* UIViewController+Raise.h */,
+				DC21605522828702007F8C9A /* UIViewController+Raise.m */,
+				DC21605622828702007F8C9A /* UIViewController+Walk.h */,
+				DC21605722828702007F8C9A /* UIViewController+Walk.m */,
+			);
+			name = DragMeToTheProject;
+			path = Reservoir/DragMeToTheProject;
+			sourceTree = "<group>";
+		};
+		DC21603222828702007F8C9A /* NewClass */ = {
+			isa = PBXGroup;
+			children = (
+				DC21603322828702007F8C9A /* ClimbAppDelegatev.h */,
+				DC21603422828702007F8C9A /* ClimbAppDelegatev.m */,
+				DC21603522828702007F8C9A /* DanceFavoriteViewControllero.h */,
+				DC21603622828702007F8C9A /* DanceFavoriteViewControllero.m */,
+				DC21603722828702007F8C9A /* JumpTFHppleElementd.h */,
+				DC21603822828702007F8C9A /* JumpTFHppleElementd.m */,
+				DC21603922828702007F8C9A /* ListenMainViewControllert.h */,
+				DC21603A22828702007F8C9A /* ListenMainViewControllert.m */,
+				DC21603B22828702007F8C9A /* ListenReservoirViewControllerY.h */,
+				DC21603C22828702007F8C9A /* ListenReservoirViewControllerY.m */,
+				DC21603D22828702007F8C9A /* NewClassCallHeader.h */,
+				DC21603E22828702007F8C9A /* PatternVWWWaterViews.h */,
+				DC21603F22828702007F8C9A /* PatternVWWWaterViews.m */,
+				DC21604022828702007F8C9A /* RaiseGlobalS.h */,
+				DC21604122828702007F8C9A /* RaiseGlobalS.m */,
+				DC21604222828702007F8C9A /* SingUITabBarc.h */,
+				DC21604322828702007F8C9A /* SingUITabBarc.m */,
+				DC21604422828702007F8C9A /* WalkTFHpplek.h */,
+				DC21604522828702007F8C9A /* WalkTFHpplek.m */,
+			);
+			path = NewClass;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -407,7 +518,7 @@
 			);
 			name = Reservoir;
 			productName = WaterMonitor;
-			productReference = 614A39F01ACA3A4800C0A395 /* 台灣水庫.app */;
+			productReference = 614A39F01ACA3A4800C0A395 /* 水庫水位系統.app */;
 			productType = "com.apple.product-type.application";
 		};
 		614A3A081ACA3A4800C0A395 /* ReservoirTests */ = {
@@ -484,7 +595,7 @@
 				614A3A011ACA3A4800C0A395 /* Images.xcassets in Resources */,
 				616ACB4C1ACB85C800CCC80E /* FavorateCell.xib in Resources */,
 				DC216008228172D5007F8C9A /* Launch Screen.storyboard in Resources */,
-				614A3A3B1ACA3E2800C0A395 /* SettingViewController.xib in Resources */,
+				614A3A3B1ACA3E2800C0A395 /* FavoriteViewController.xib in Resources */,
 				61F24C4C1ACC3DF200BAC9D1 /* icon_water1024.png in Resources */,
 				616ACB511ACB86CC00CCC80E /* icon-heart.png in Resources */,
 				61F24C531ACC585200BAC9D1 /* hint2.png in Resources */,
@@ -516,17 +627,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC21605922828702007F8C9A /* DanceFavoriteViewControllero.m in Sources */,
 				616ACB541ACB880600CCC80E /* Global.m in Sources */,
+				DC21606022828702007F8C9A /* WalkTFHpplek.m in Sources */,
+				DC21606922828702007F8C9A /* UIViewController+Walk.m in Sources */,
+				DC21605D22828702007F8C9A /* PatternVWWWaterViews.m in Sources */,
 				614A3A2E1ACA3C9500C0A395 /* TFHppleElement.m in Sources */,
+				DC21606122828702007F8C9A /* UIAlertView+Jump.m in Sources */,
 				614A3A2F1ACA3C9500C0A395 /* XPathQuery.m in Sources */,
+				DC21606822828702007F8C9A /* UIViewController+Raise.m in Sources */,
+				DC21605822828702007F8C9A /* ClimbAppDelegatev.m in Sources */,
 				616ACB0F1ACACA6300CCC80E /* mBtn.m in Sources */,
+				DC21606722828702007F8C9A /* UIViewController+Dance.m in Sources */,
+				DC21606222828702007F8C9A /* UIImageView+Listen.m in Sources */,
+				DC21605C22828702007F8C9A /* ListenReservoirViewControllerY.m in Sources */,
 				614A3A351ACA3E1600C0A395 /* ReservoirViewController.m in Sources */,
 				614A3A2D1ACA3C9500C0A395 /* TFHpple.m in Sources */,
 				614A39F91ACA3A4800C0A395 /* AppDelegate.m in Sources */,
+				DC21606522828702007F8C9A /* UITabBar+Climb.m in Sources */,
+				DC21605F22828702007F8C9A /* SingUITabBarc.m in Sources */,
 				614A39F61ACA3A4800C0A395 /* main.m in Sources */,
+				DC21606322828702007F8C9A /* UIImageView+Pattern.m in Sources */,
+				DC21606422828702007F8C9A /* UIPickerView+Listen.m in Sources */,
 				614A3A1B1ACA3AC100C0A395 /* VWWWaterView.m in Sources */,
+				DC21605E22828702007F8C9A /* RaiseGlobalS.m in Sources */,
 				614A3A1F1ACA3C1D00C0A395 /* MainViewController.m in Sources */,
-				614A3A3A1ACA3E2800C0A395 /* SettingViewController.m in Sources */,
+				614A3A3A1ACA3E2800C0A395 /* FavoriteViewController.m in Sources */,
+				DC21606622828702007F8C9A /* UIViewController+ClimbSing.m in Sources */,
+				DC21605B22828702007F8C9A /* ListenMainViewControllert.m in Sources */,
+				DC21605A22828702007F8C9A /* JumpTFHppleElementd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -659,6 +788,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: JIACHAN LUO (D3J667427T)";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = BCU2BHB98M;
+				ENABLE_BITCODE = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
@@ -677,7 +807,7 @@
 					"-all_load",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.xin.reservoir;
-				PRODUCT_NAME = "台灣水庫";
+				PRODUCT_NAME = "水庫水位系統";
 				PROVISIONING_PROFILE = "bcb3b823-8f91-494f-96cf-abf8c0e139af";
 				PROVISIONING_PROFILE_SPECIFIER = "Dev - Wildcard";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -693,6 +823,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: JIACHAN LUO (QZMZCHN38N)";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = QZMZCHN38N;
+				ENABLE_BITCODE = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
@@ -710,7 +841,7 @@
 					"-all_load",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.xin.reservoir;
-				PRODUCT_NAME = "台灣水庫";
+				PRODUCT_NAME = "水庫水位系統";
 				PROVISIONING_PROFILE = "46c47680-2f14-4c35-a9ad-0372fadce363";
 				PROVISIONING_PROFILE_SPECIFIER = "Distribution - reservoir";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -721,6 +852,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -741,6 +873,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

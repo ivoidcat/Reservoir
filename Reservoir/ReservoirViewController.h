@@ -19,6 +19,6 @@
     
 }
 
-@property (nonatomic,retain) NSArray *mArray;
+@property (nonatomic,retain) NSArray *dataArray;
 
 @end

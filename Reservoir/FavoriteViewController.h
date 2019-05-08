@@ -1,5 +1,5 @@
 //
-//  SettingViewController.h
+//  FavoriteViewController.h
 //  WaterMonitor
 //
 //  Created by AKI on 2015/3/31.
@@ -8,13 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SettingViewController : UIViewController<UITableViewDataSource,UITableViewDelegate,UIScrollViewDelegate>
+@interface FavoriteViewController : UIViewController<UITableViewDataSource,UITableViewDelegate,UIScrollViewDelegate>
 {
     IBOutlet UITableView *mTable;
     
      UIView *viewHint;
     
-     UIScrollView *mScroll;
+     UIScrollView *myScrollView;
     
      UIPageControl *mPage;
     

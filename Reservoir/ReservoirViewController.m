@@ -17,7 +17,7 @@
 @end
 
 @implementation ReservoirViewController
-@synthesize mArray;
+@synthesize dataArray;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -53,18 +53,18 @@
     btn01.idx = (int)indexPath.row;
     [btn01 addTarget:self action:@selector(btn_click:) forControlEvents:UIControlEventTouchUpInside];
     VWWWaterView *water =(VWWWaterView *)[cell viewWithTag:102];
-    [water setWaterHeight:[[[[[mArray objectAtIndex:indexPath.row]componentsSeparatedByString:@","] objectAtIndex:1] stringByReplacingOccurrencesOfString:@"%" withString:@""] doubleValue]];
+    [water setWaterHeight:[[[[[dataArray objectAtIndex:indexPath.row]componentsSeparatedByString:@","] objectAtIndex:1] stringByReplacingOccurrencesOfString:@"%" withString:@""] doubleValue]];
     
     UILabel *lblName = (UILabel *)[cell viewWithTag:103];
 
-    lblName.text = [[[mArray objectAtIndex:indexPath.row]componentsSeparatedByString:@","] objectAtIndex:0];
+    lblName.text = [[[dataArray objectAtIndex:indexPath.row]componentsSeparatedByString:@","] objectAtIndex:0];
     
     UILabel *lblPercent = (UILabel *)[cell viewWithTag:104];
     
-    lblPercent.text =[[[mArray objectAtIndex:indexPath.row]componentsSeparatedByString:@","] objectAtIndex:1];
+    lblPercent.text =[[[dataArray objectAtIndex:indexPath.row]componentsSeparatedByString:@","] objectAtIndex:1];
     
     UIImageView *imgSelect = (UIImageView *)[cell viewWithTag:106];
-    if([Global isFavorate:[[[mArray objectAtIndex:indexPath.row]componentsSeparatedByString:@","] objectAtIndex:0]]){
+    if([Global isFavorate:[[[dataArray objectAtIndex:indexPath.row]componentsSeparatedByString:@","] objectAtIndex:0]]){
         [imgSelect setImage:[UIImage imageNamed:@"icon-heart-selected.png"]];
     }else{
         [imgSelect setImage:[UIImage imageNamed:@"icon-heart.png"]];
@@ -77,7 +77,7 @@
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
 {
-    return mArray.count;
+    return dataArray.count;
 }
 
 #pragma mark - UICollectionViewDelegate methods
@@ -89,11 +89,11 @@
 
 -(void)btn_click:(mBtn *)sender{
     
-    if([Global isFavorate:[[[mArray objectAtIndex:sender.idx]componentsSeparatedByString:@","] objectAtIndex:0]]){
-        [Global removeFavoarte:[[[mArray objectAtIndex:sender.idx]componentsSeparatedByString:@","] objectAtIndex:0]];
+    if([Global isFavorate:[[[dataArray objectAtIndex:sender.idx]componentsSeparatedByString:@","] objectAtIndex:0]]){
+        [Global removeFavoarte:[[[dataArray objectAtIndex:sender.idx]componentsSeparatedByString:@","] objectAtIndex:0]];
     }else{
         
-        [Global addFavoarte:[[[mArray objectAtIndex:sender.idx]componentsSeparatedByString:@","] objectAtIndex:0]];
+        [Global addFavoarte:[[[dataArray objectAtIndex:sender.idx]componentsSeparatedByString:@","] objectAtIndex:0]];
     }
     
     [mCollection reloadData];}

@@ -30,10 +30,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [self performSelector:@selector(loadData:) withObject:nil afterDelay:0.1f];
+    [self performSelector:@selector(requestData:) withObject:nil afterDelay:0.1f];
 }
 
--(void)loadData:(id)sender{
+-(void)requestData:(id)sender{
     
     NSURL *wUrl = [NSURL URLWithString:waterURL];
     
@@ -81,7 +81,7 @@
             return;
         }
         
-        [self performSelector:@selector(loadData:) withObject:nil afterDelay:10.0f];
+        [self performSelector:@selector(requestData:) withObject:nil afterDelay:10.0f];
         
         return;
     }
@@ -102,7 +102,7 @@
     }
    
     self.dataArray = dataArray;
-    [self start];
+    [self main];
 }
 
 -(void)clearAllData {
@@ -110,7 +110,7 @@
     [self.alert dismissViewControllerAnimated:true completion:nil];
 }
 
--(void)start {
+-(void)main {
     
     if([self.navigationController respondsToSelector:@selector(interactivePopGestureRecognizer)]){
         self.navigationController.interactivePopGestureRecognizer.enabled = NO;
@@ -124,10 +124,10 @@
     
     view1 = [[ReservoirViewController alloc] initWithNibName:@"ReservoirViewController" bundle:nil];
     
-    view1.mArray = dataArray;
+    view1.dataArray = dataArray;
     
     
-    view2 = [[SettingViewController alloc] initWithNibName:@"SettingViewController" bundle:nil];
+    view2 = [[FavoriteViewController alloc] initWithNibName:@"FavoriteViewController" bundle:nil];
     
     view2.mArray = dataArray;
     
@@ -160,7 +160,7 @@
     
     if ([currentView isKindOfClass:[view1 class]]) {
         [UIView animateWithDuration:0.24f animations:^{
-            [selectedBar setFrame:CGRectMake(btnWater.frame.origin.x-3, selectedBar.frame.origin.y, selectedBar.frame.size.width, selectedBar.frame.size.height)];
+            [self->selectedBar setFrame:CGRectMake(btnWater.frame.origin.x-3, selectedBar.frame.origin.y, selectedBar.frame.size.width, selectedBar.frame.size.height)];
         } completion:^(BOOL finished) {
             
             [self doButtonState:1];
@@ -168,7 +168,7 @@
     }
     else if([currentView isKindOfClass:[view2 class]]){
         [UIView animateWithDuration:0.24f animations:^{
-            [selectedBar setFrame:CGRectMake(btnSetting.frame.origin.x-3, selectedBar.frame.origin.y, selectedBar.frame.size.width, selectedBar.frame.size.height)];
+            [self->selectedBar setFrame:CGRectMake(btnSetting.frame.origin.x-3, selectedBar.frame.origin.y, selectedBar.frame.size.width, selectedBar.frame.size.height)];
         } completion:^(BOOL finished) {
             
             [self doButtonState:1];

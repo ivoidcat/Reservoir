@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "614A39EF1ACA3A4800C0A395"
-               BuildableName = "&#x53f0;&#x7063;&#x6c34;&#x5eab;.app"
+               BuildableName = "&#x6c34;&#x5eab;&#x6c34;&#x4f4d;&#x7cfb;&#x7d71;.app"
                BlueprintName = "Reservoir"
                ReferencedContainer = "container:Reservoir.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "614A39EF1ACA3A4800C0A395"
-            BuildableName = "&#x53f0;&#x7063;&#x6c34;&#x5eab;.app"
+            BuildableName = "&#x6c34;&#x5eab;&#x6c34;&#x4f4d;&#x7cfb;&#x7d71;.app"
             BlueprintName = "Reservoir"
             ReferencedContainer = "container:Reservoir.xcodeproj">
          </BuildableReference>
@@ -56,7 +56,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "614A39EF1ACA3A4800C0A395"
-            BuildableName = "&#x53f0;&#x7063;&#x6c34;&#x5eab;.app"
+            BuildableName = "&#x6c34;&#x5eab;&#x6c34;&#x4f4d;&#x7cfb;&#x7d71;.app"
             BlueprintName = "Reservoir"
             ReferencedContainer = "container:Reservoir.xcodeproj">
          </BuildableReference>
@@ -75,7 +75,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "614A39EF1ACA3A4800C0A395"
-            BuildableName = "&#x53f0;&#x7063;&#x6c34;&#x5eab;.app"
+            BuildableName = "&#x6c34;&#x5eab;&#x6c34;&#x4f4d;&#x7cfb;&#x7d71;.app"
             BlueprintName = "Reservoir"
             ReferencedContainer = "container:Reservoir.xcodeproj">
          </BuildableReference>

@@ -115,7 +115,7 @@
 }
 
 -(IBAction)btnHome:(id)sender{
-    NSURL *url = [NSURL URLWithString:@"waterMonitor://"];
+    NSURL *url = [NSURL URLWithString:@"Reservoir://"];
     [self.extensionContext openURL:url completionHandler:nil];
 }
 

@@ -23,7 +23,6 @@
 		614A3A3B1ACA3E2800C0A395 /* FavoriteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 614A3A391ACA3E2800C0A395 /* FavoriteViewController.xib */; };
 		616ACB0C1ACAC8F600CCC80E /* MyCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 616ACB0B1ACAC8F600CCC80E /* MyCustomCell.xib */; };
 		616ACB0F1ACACA6300CCC80E /* mBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 616ACB0E1ACACA6300CCC80E /* mBtn.m */; };
-		616ACB111ACAD88000CCC80E /* 64bit_429_libAdOn_ccfe9e5.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 616ACB101ACAD88000CCC80E /* 64bit_429_libAdOn_ccfe9e5.a */; settings = {ATTRIBUTES = (Weak, ); }; };
 		616ACB131ACAD8FB00CCC80E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616ACB121ACAD8FB00CCC80E /* UIKit.framework */; };
 		616ACB151ACAD8FF00CCC80E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616ACB141ACAD8FF00CCC80E /* Foundation.framework */; };
 		616ACB171ACAD90700CCC80E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616ACB161ACAD90700CCC80E /* CoreLocation.framework */; };
@@ -43,7 +42,6 @@
 		616ACB361ACADB5500CCC80E /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616ACB351ACADB5500CCC80E /* MediaPlayer.framework */; };
 		616ACB381ACADB5B00CCC80E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616ACB371ACADB5B00CCC80E /* AudioToolbox.framework */; };
 		616ACB3A1ACADB6200CCC80E /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616ACB391ACADB6200CCC80E /* AssetsLibrary.framework */; };
-		616ACB3C1ACADB6600CCC80E /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616ACB3B1ACADB6600CCC80E /* AdSupport.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		616ACB3E1ACADB6F00CCC80E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616ACB3D1ACADB6F00CCC80E /* SystemConfiguration.framework */; };
 		616ACB401ACADB7600CCC80E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616ACB3F1ACADB7600CCC80E /* AVFoundation.framework */; };
 		616ACB431ACADB8300CCC80E /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616ACB411ACADB8300CCC80E /* AddressBook.framework */; };
@@ -137,7 +135,6 @@
 		616ACB0B1ACAC8F600CCC80E /* MyCustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCustomCell.xib; sourceTree = "<group>"; };
 		616ACB0D1ACACA6300CCC80E /* mBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mBtn.h; sourceTree = "<group>"; };
 		616ACB0E1ACACA6300CCC80E /* mBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mBtn.m; sourceTree = "<group>"; };
-		616ACB101ACAD88000CCC80E /* 64bit_429_libAdOn_ccfe9e5.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = 64bit_429_libAdOn_ccfe9e5.a; sourceTree = "<group>"; };
 		616ACB121ACAD8FB00CCC80E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		616ACB141ACAD8FF00CCC80E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		616ACB161ACAD90700CCC80E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
@@ -145,8 +142,6 @@
 		616ACB1A1ACAD91100CCC80E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		616ACB1C1ACAD91C00CCC80E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		616ACB1E1ACAD92000CCC80E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
-		616ACB211ACAD94C00CCC80E /* VpadnBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VpadnBanner.h; sourceTree = "<group>"; };
-		616ACB221ACAD94C00CCC80E /* VpadnInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VpadnInterstitial.h; sourceTree = "<group>"; };
 		616ACB231ACADAA800CCC80E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		616ACB251ACADB1600CCC80E /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		616ACB271ACADB1C00CCC80E /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
@@ -239,7 +234,6 @@
 				616ACB441ACADB8300CCC80E /* AddressBookUI.framework in Frameworks */,
 				616ACB401ACADB7600CCC80E /* AVFoundation.framework in Frameworks */,
 				616ACB3E1ACADB6F00CCC80E /* SystemConfiguration.framework in Frameworks */,
-				616ACB3C1ACADB6600CCC80E /* AdSupport.framework in Frameworks */,
 				616ACB3A1ACADB6200CCC80E /* AssetsLibrary.framework in Frameworks */,
 				616ACB381ACADB5B00CCC80E /* AudioToolbox.framework in Frameworks */,
 				616ACB361ACADB5500CCC80E /* MediaPlayer.framework in Frameworks */,
@@ -258,7 +252,6 @@
 				616ACB171ACAD90700CCC80E /* CoreLocation.framework in Frameworks */,
 				616ACB151ACAD8FF00CCC80E /* Foundation.framework in Frameworks */,
 				616ACB131ACAD8FB00CCC80E /* UIKit.framework in Frameworks */,
-				616ACB111ACAD88000CCC80E /* 64bit_429_libAdOn_ccfe9e5.a in Frameworks */,
 				614A3A311ACA3CE600C0A395 /* libxml2.2.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -327,8 +320,6 @@
 			children = (
 				DC21606A22829040007F8C9A /* 水庫水位系統.entitlements */,
 				616ACB4D1ACB86CC00CCC80E /* Resource */,
-				616ACB201ACAD94C00CCC80E /* vpon */,
-				616ACB101ACAD88000CCC80E /* 64bit_429_libAdOn_ccfe9e5.a */,
 				614A3A261ACA3C9500C0A395 /* hpple */,
 				614A3A191ACA3AC100C0A395 /* VWWWaterView.h */,
 				614A3A1A1ACA3AC100C0A395 /* VWWWaterView.m */,
@@ -393,15 +384,6 @@
 				614A3A2C1ACA3C9500C0A395 /* XPathQuery.m */,
 			);
 			path = hpple;
-			sourceTree = "<group>";
-		};
-		616ACB201ACAD94C00CCC80E /* vpon */ = {
-			isa = PBXGroup;
-			children = (
-				616ACB211ACAD94C00CCC80E /* VpadnBanner.h */,
-				616ACB221ACAD94C00CCC80E /* VpadnInterstitial.h */,
-			);
-			path = vpon;
 			sourceTree = "<group>";
 		};
 		616ACB4D1ACB86CC00CCC80E /* Resource */ = {
@@ -800,7 +782,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/WaterMonitor",
+					"$(PROJECT_DIR)/Reservoir",
 				);
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
@@ -834,7 +816,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/WaterMonitor",
+					"$(PROJECT_DIR)/Reservoir",
 				);
 				OTHER_LDFLAGS = (
 					"-Objc-C",
@@ -861,7 +843,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = WaterMonitorTests/Info.plist;
+				INFOPLIST_FILE = ReservoirTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yuaki.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -878,7 +860,7 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = WaterMonitorTests/Info.plist;
+				INFOPLIST_FILE = ReservoirTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yuaki.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";

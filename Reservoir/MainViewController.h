@@ -1,6 +1,6 @@
 //
 //  MainViewController.h
-//  WaterMonitor
+//  Reservoir
 //
 //  Created by AKI on 2015/3/31.
 //  Copyright (c) 2015年 AKI. All rights reserved.
@@ -10,11 +10,9 @@
 #import "ReservoirViewController.h"
 #import "FavoriteViewController.h"
 
-#import "VpadnBanner.h"
-#import "VpadnInterstitial.h"
 
 
-@interface MainViewController : UIViewController<UIPageViewControllerDataSource,UIPageViewControllerDelegate,UIScrollViewDelegate,VpadnBannerDelegate, VpadnInterstitialDelegate>
+@interface MainViewController : UIViewController<UIPageViewControllerDataSource,UIPageViewControllerDelegate,UIScrollViewDelegate>
 {
     IBOutlet UIView *ContainerView;
     IBOutlet UIButton *btnWater;

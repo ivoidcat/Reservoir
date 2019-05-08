@@ -1,6 +1,6 @@
 //
 //  MainViewController.m
-//  WaterMonitor
+//  Reservoir
 //
 //  Created by AKI on 2015/3/31.
 //  Copyright (c) 2015年 AKI. All rights reserved.
@@ -146,7 +146,7 @@
     }
     
     
-    CGPoint origin = CGPointMake(([UIScreen mainScreen].bounds.size.width-CGSizeFromVpadnAdSize(VpadnAdSizeBanner).width)/2,0.0);
+   
     [self doButtonState:0];
 }
 
@@ -160,7 +160,7 @@
     
     if ([currentView isKindOfClass:[view1 class]]) {
         [UIView animateWithDuration:0.24f animations:^{
-            [self->selectedBar setFrame:CGRectMake(btnWater.frame.origin.x-3, selectedBar.frame.origin.y, selectedBar.frame.size.width, selectedBar.frame.size.height)];
+            [self->selectedBar setFrame:CGRectMake(self->btnWater.frame.origin.x-3, selectedBar.frame.origin.y, selectedBar.frame.size.width, selectedBar.frame.size.height)];
         } completion:^(BOOL finished) {
             
             [self doButtonState:1];
@@ -168,7 +168,7 @@
     }
     else if([currentView isKindOfClass:[view2 class]]){
         [UIView animateWithDuration:0.24f animations:^{
-            [self->selectedBar setFrame:CGRectMake(btnSetting.frame.origin.x-3, selectedBar.frame.origin.y, selectedBar.frame.size.width, selectedBar.frame.size.height)];
+            [self->selectedBar setFrame:CGRectMake(self->btnSetting.frame.origin.x-3, selectedBar.frame.origin.y, selectedBar.frame.size.width, selectedBar.frame.size.height)];
         } completion:^(BOOL finished) {
             
             [self doButtonState:1];
@@ -228,7 +228,7 @@
     [self.pageController setViewControllers:[NSArray arrayWithObject:view2] direction:UIPageViewControllerNavigationDirectionForward animated:YES completion:nil];
     
     [UIView animateWithDuration:0.24f animations:^{
-        [selectedBar setFrame:CGRectMake(btnSetting.frame.origin.x, selectedBar.frame.origin.y, selectedBar.frame.size.width, selectedBar.frame.size.height)];
+        [self->selectedBar setFrame:CGRectMake(btnSetting.frame.origin.x, selectedBar.frame.origin.y, selectedBar.frame.size.width, selectedBar.frame.size.height)];
     } completion:^(BOOL finished) {
         
         [self doButtonState:1];

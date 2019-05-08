@@ -29,12 +29,12 @@
 			<string>waterMonitor</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>waterMonitor</string>
+				<string>Reservoir</string>
 			</array>
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>136</string>
+	<string>140</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSAppTransportSecurity</key>
@@ -42,6 +42,10 @@
 		<key>NSAllowsArbitraryLoads</key>
 		<true/>
 	</dict>
+	<key>NSCalendarsUsageDescription</key>
+	<string>系統將存取您的日曆權限</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>系統將存取您的相機權限</string>
 	<key>UILaunchStoryboardName</key>
 	<string>Launch Screen</string>
 	<key>UIMainStoryboardFile</key>

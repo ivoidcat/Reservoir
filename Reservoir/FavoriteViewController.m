@@ -122,7 +122,7 @@
     
     myScrollView = (UIScrollView *)[viewHint viewWithTag:101];
     myScrollView.delegate= self;
-    [myScrollView setContentSize:CGSizeMake(960, 200)];
+    [myScrollView setContentSize:self.view.frame.size];
     
     mPage = (UIPageControl *)[viewHint viewWithTag:102];
     

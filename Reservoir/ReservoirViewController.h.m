@@ -1,22 +1,22 @@
 //
-//  WaterViewController.m
+//  ReservoirViewController.m
 //  WaterMonitor
 //
 //  Created by AKI on 2015/3/31.
 //  Copyright (c) 2015年 AKI. All rights reserved.
 //
 
-#import "WaterViewController.h"
+#import "ReservoirViewController.h"
 #import "mBtn.h"
 #import "VWWWaterView.h"
 #import "Global.h"
 
 
-@interface WaterViewController ()
+@interface ReservoirViewController ()
 
 @end
 
-@implementation WaterViewController
+@implementation ReservoirViewController
 @synthesize mArray;
 
 - (void)viewDidLoad {

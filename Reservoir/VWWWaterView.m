@@ -43,7 +43,8 @@
     b = 0;
     jia = NO;
     
-    _currentWaterColor= [UIColor colorWithRed:86/255.0f green:202/255.0f blue:139/255.0f alpha:1];
+    _currentWaterColor= [UIColor colorWithRed:0.71 green:0.93 blue:1.00 alpha:1.0];
+
     
     _currentLinePointY = self.frame.size.height;
     

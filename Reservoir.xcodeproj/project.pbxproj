@@ -17,8 +17,8 @@
 		614A3A2E1ACA3C9500C0A395 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 614A3A2A1ACA3C9500C0A395 /* TFHppleElement.m */; };
 		614A3A2F1ACA3C9500C0A395 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 614A3A2C1ACA3C9500C0A395 /* XPathQuery.m */; };
 		614A3A311ACA3CE600C0A395 /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 614A3A301ACA3CE600C0A395 /* libxml2.2.dylib */; };
-		614A3A351ACA3E1600C0A395 /* WaterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 614A3A331ACA3E1600C0A395 /* WaterViewController.m */; };
-		614A3A361ACA3E1600C0A395 /* WaterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 614A3A341ACA3E1600C0A395 /* WaterViewController.xib */; };
+		614A3A351ACA3E1600C0A395 /* ReservoirViewController.h.m in Sources */ = {isa = PBXBuildFile; fileRef = 614A3A331ACA3E1600C0A395 /* ReservoirViewController.h.m */; };
+		614A3A361ACA3E1600C0A395 /* ReservoirViewController.h.xib in Resources */ = {isa = PBXBuildFile; fileRef = 614A3A341ACA3E1600C0A395 /* ReservoirViewController.h.xib */; };
 		614A3A3A1ACA3E2800C0A395 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 614A3A381ACA3E2800C0A395 /* SettingViewController.m */; };
 		614A3A3B1ACA3E2800C0A395 /* SettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 614A3A391ACA3E2800C0A395 /* SettingViewController.xib */; };
 		616ACB0C1ACAC8F600CCC80E /* MyCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 616ACB0B1ACAC8F600CCC80E /* MyCustomCell.xib */; };
@@ -110,9 +110,9 @@
 		614A3A2B1ACA3C9500C0A395 /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
 		614A3A2C1ACA3C9500C0A395 /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
 		614A3A301ACA3CE600C0A395 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
-		614A3A321ACA3E1600C0A395 /* WaterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterViewController.h; sourceTree = "<group>"; };
-		614A3A331ACA3E1600C0A395 /* WaterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterViewController.m; sourceTree = "<group>"; };
-		614A3A341ACA3E1600C0A395 /* WaterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WaterViewController.xib; sourceTree = "<group>"; };
+		614A3A321ACA3E1600C0A395 /* ReservoirViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReservoirViewController.h; sourceTree = "<group>"; };
+		614A3A331ACA3E1600C0A395 /* ReservoirViewController.h.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReservoirViewController.h.m; sourceTree = "<group>"; };
+		614A3A341ACA3E1600C0A395 /* ReservoirViewController.h.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReservoirViewController.h.xib; sourceTree = "<group>"; };
 		614A3A371ACA3E2800C0A395 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
 		614A3A381ACA3E2800C0A395 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
 		614A3A391ACA3E2800C0A395 /* SettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingViewController.xib; sourceTree = "<group>"; };
@@ -280,9 +280,9 @@
 				614A3A1C1ACA3C1D00C0A395 /* MainViewController.h */,
 				614A3A1D1ACA3C1D00C0A395 /* MainViewController.m */,
 				DC21600922817B14007F8C9A /* Main.storyboard */,
-				614A3A321ACA3E1600C0A395 /* WaterViewController.h */,
-				614A3A331ACA3E1600C0A395 /* WaterViewController.m */,
-				614A3A341ACA3E1600C0A395 /* WaterViewController.xib */,
+				614A3A321ACA3E1600C0A395 /* ReservoirViewController.h */,
+				614A3A331ACA3E1600C0A395 /* ReservoirViewController.h.m */,
+				614A3A341ACA3E1600C0A395 /* ReservoirViewController.h.xib */,
 				614A3A371ACA3E2800C0A395 /* SettingViewController.h */,
 				614A3A381ACA3E2800C0A395 /* SettingViewController.m */,
 				614A3A391ACA3E2800C0A395 /* SettingViewController.xib */,
@@ -493,7 +493,7 @@
 				DC21600D22818B7D007F8C9A /* question.png in Resources */,
 				61F24C511ACC585200BAC9D1 /* hint1.png in Resources */,
 				DC21600F22818B85007F8C9A /* water.png in Resources */,
-				614A3A361ACA3E1600C0A395 /* WaterViewController.xib in Resources */,
+				614A3A361ACA3E1600C0A395 /* ReservoirViewController.h.xib in Resources */,
 				61F24C5B1ACC5D4600BAC9D1 /* ViewHint.xib in Resources */,
 				616ACB0C1ACAC8F600CCC80E /* MyCustomCell.xib in Resources */,
 				616ACB241ACADAA800CCC80E /* Default-568h@2x.png in Resources */,
@@ -520,7 +520,7 @@
 				614A3A2E1ACA3C9500C0A395 /* TFHppleElement.m in Sources */,
 				614A3A2F1ACA3C9500C0A395 /* XPathQuery.m in Sources */,
 				616ACB0F1ACACA6300CCC80E /* mBtn.m in Sources */,
-				614A3A351ACA3E1600C0A395 /* WaterViewController.m in Sources */,
+				614A3A351ACA3E1600C0A395 /* ReservoirViewController.h.m in Sources */,
 				614A3A2D1ACA3C9500C0A395 /* TFHpple.m in Sources */,
 				614A39F91ACA3A4800C0A395 /* AppDelegate.m in Sources */,
 				614A39F61ACA3A4800C0A395 /* main.m in Sources */,

@@ -122,7 +122,7 @@
     self.pageController.dataSource = self;
     [[self.pageController view] setFrame:[ContainerView bounds]];
     
-    view1 = [[WaterViewController alloc] initWithNibName:@"WaterViewController" bundle:nil];
+    view1 = [[ReservoirViewController alloc] initWithNibName:@"ReservoirViewController" bundle:nil];
     
     view1.mArray = dataArray;
     

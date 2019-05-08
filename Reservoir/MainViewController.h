@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "WaterViewController.h"
+#import "ReservoirViewController.h"
 #import "SettingViewController.h"
-
 
 #import "VpadnBanner.h"
 #import "VpadnInterstitial.h"
@@ -25,7 +24,7 @@
     NSArray *viewControllers;
     int ErrorCount;
     
-    WaterViewController *view1;
+    ReservoirViewController *view1;
     SettingViewController *view2;
 }
 

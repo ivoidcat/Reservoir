@@ -1,5 +1,5 @@
 //
-//  WaterViewController.h
+//  ReservoirViewController.h
 //  WaterMonitor
 //
 //  Created by AKI on 2015/3/31.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface WaterViewController : UIViewController<UICollectionViewDataSource,UICollectionViewDelegate>
+@interface ReservoirViewController : UIViewController<UICollectionViewDataSource,UICollectionViewDelegate>
 {
     IBOutlet UICollectionView *mCollection;
     
